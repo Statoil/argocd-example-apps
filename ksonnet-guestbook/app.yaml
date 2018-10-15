@@ -15,7 +15,7 @@ environments:
   prod:
     destination:
       namespace: prod
-      server: https://kubernetes.default.svc
+      server: https://auroraprod-auroraprodrg-019958-5a593c42.hcp.northeurope.azmk8s.io:443
     k8sVersion: v1.10.0
     path: prod
 kind: ksonnet.io/app
